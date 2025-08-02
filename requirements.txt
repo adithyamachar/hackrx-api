@@ -1,8 +1,7 @@
 fastapi
 uvicorn
-python-multipart
-cohere
-requests
-python-dotenv
-pinecone-client
+numpy
 PyMuPDF
+requests
+cohere
+pinecone-client
