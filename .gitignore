@@ -8,3 +8,5 @@ __pycache__/
 node_modules/
 .git/
 interactive_demo.py
+tempCodeRunnerFile.py
+test.py
