@@ -126,6 +126,9 @@ async def hackrx_run(request: QARequest):
         return {"answers": answers}
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
+@app.get("/")
+def read_root():
+    return {"status": "ok"}
 
 # Run locally (optional)
 if __name__ == "__main__":
