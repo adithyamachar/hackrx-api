@@ -4,4 +4,4 @@ numpy
 PyMuPDF
 requests
 cohere
-pinecone-client
+pinecone
